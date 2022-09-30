@@ -192,3 +192,4 @@ ModelManifest.xml
 .vs/dr2/v15/Browse.VC.opendb
 *.db-shm
 .vs/dr2/v15/Solution.VC.db-wal
+/.vs/dr2
