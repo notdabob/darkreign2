@@ -65,7 +65,7 @@
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <WarningLevel>Level4</WarningLevel>
       <OmitFramePointers>false</OmitFramePointers>
-      <AdditionalIncludeDirectories>../3rdparty;../coregame;../coregame_ai;../coregame_interface;../coregame_objects;../coregame_orders;../coregame_particles;../coregame_tasks;../game;../graphics;../interface;../main;../multiplayer;../sound;../system;../util;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../3rdparty;../coregame;../coregame_ai;../coregame_interface;../coregame_objects;../coregame_orders;../coregame_particles;../coregame_tasks;../game;../graphics;../interface;../main;../multiplayer;../sound;../system;../util</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>std.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
       <PreprocessorDefinitions>NDEBUG;WIN32;DOMRMGEN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AssemblerOutput>All</AssemblerOutput>

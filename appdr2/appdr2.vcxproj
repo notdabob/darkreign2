@@ -67,7 +67,7 @@
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <WarningLevel>Level4</WarningLevel>
       <OmitFramePointers>false</OmitFramePointers>
-      <AdditionalIncludeDirectories>../3rdparty;../coregame;../coregame_ai;../coregame_interface;../coregame_objects;../coregame_orders;../coregame_particles;../coregame_tasks;../game;../graphics;../interface;../main;../multiplayer;../sound;../system;../util;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Games\darkreign2\3rdparty\mss;E:\Games\darkreign2\3rdparty\bink;../3rdparty;../coregame;../coregame_ai;../coregame_interface;../coregame_objects;../coregame_orders;../coregame_particles;../coregame_tasks;../game;../graphics;../interface;../main;../multiplayer;../sound;../system;../util;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>std.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
       <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AssemblerOutput>All</AssemblerOutput>
