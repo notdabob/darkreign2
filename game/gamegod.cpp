@@ -197,6 +197,7 @@ namespace GameGod
   //
   static Bool FindOriginalCD()
   {
+      return true;
     #ifdef DEVELOPMENT
 
       seenOriginal = TRUE;
