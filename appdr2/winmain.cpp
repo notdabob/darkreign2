@@ -52,7 +52,8 @@ namespace Main
     PTree pTree;
 
     // Attempt to open the file
-    if (pTree.AddFile(APPLICATION_CONFIGFILE))
+    // TODO: this is my hack to avoid the startup config problem
+    if (pTree.AddFile(APPLICATION_CONFIGFILE) || true)
     {
       // Find our startup scope
       FScope *fScope = pTree.GetGlobalScope()->GetFunction("StartupConfig", FALSE);

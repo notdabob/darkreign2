@@ -172,6 +172,8 @@ namespace Setup
   //
   Bool FindOriginalCD()
   {
+      // TODO: RWG: hack
+      return true;
     Bool libOk = FALSE;
     Bool trackOk = FALSE;
 

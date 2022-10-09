@@ -238,24 +238,25 @@ namespace Vid
     theStyle = GetWindowLong( hWnd, GWL_STYLE);
 
     Vid::isStatus.fullScreen = doStatus.fullScreen;    // for initial InitDD
-    if (!InitDD() || !SetMode( curMode))
-	  {
-      if (Vid::isStatus.gotDD)
-      {
-        ERR_MESSAGE(( "%s\n\n%s %s\n\n%s",
-          dxwarning, 
-          CurDD().device.str, CurDD().driver.str, 
-          dxmessage 
-        ));
-      }
-      else
-      {
-        ERR_MESSAGE(( "%s\n\n%s",
-          dxwarning, dxmessage 
-        ));
-      }
-      TerminateProcess( GetCurrentProcess(), 0);
-	  }
+ // TODO: remove my hack
+   // if (!InitDD() || !SetMode(curMode))
+	  //{
+   //   if (Vid::isStatus.gotDD)
+   //   {
+   //     ERR_MESSAGE(( "%s\n\n%s %s\n\n%s",
+   //       dxwarning, 
+   //       CurDD().device.str, CurDD().driver.str, 
+   //       dxmessage 
+   //     ));
+   //   }
+   //   else
+   //   {
+   //     ERR_MESSAGE(( "%s\n\n%s",
+   //       dxwarning, dxmessage 
+   //     ));
+   //   }
+   //   TerminateProcess( GetCurrentProcess(), 0);
+	  //}
     InitBuckets();
 
     // initialize dependent systems

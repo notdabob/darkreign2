@@ -16,7 +16,7 @@
     <SccLocalPath>
     </SccLocalPath>
     <ProjectGuid>{15430EFD-9710-45B8-9B17-B2326B2D32CB}</ProjectGuid>
-    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -52,6 +52,8 @@
     <OutDir>.\../Debug/graphics\</OutDir>
     <IntDir>.\../Debug/graphics\</IntDir>
     <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(IncludePath)</IncludePath>
+    <ExternalIncludePath>C:\Games\darkreign2\3rdparty\dx7;$(ExternalIncludePath)</ExternalIncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
