@@ -27,12 +27,12 @@ BEGIN
       VALUE "LegalCopyright", "Copyright © 1997-2000\0"
       VALUE "CompanyName", "Pandemic Studios\0"
       VALUE "Comments", "X\0"
-      VALUE "Build String", "Dark Reign 2 b0 [X] Sat Oct 01 03:06:01 2022\0"
-      VALUE "Build Time", "03:06:01\0"
+      VALUE "Build String", "Dark Reign 2 b0 [X] Sat Oct 01 03:54:10 2022\0"
+      VALUE "Build Time", "03:54:10\0"
       VALUE "Build Date", "10/01/22\0"
       VALUE "Build Number", "0\0"
-      VALUE "Build User", "Administrator\0"
-      VALUE "Build Machine", "DARKREIGN2\0"
+      VALUE "Build User", "rgrim\0"
+      VALUE "Build Machine", "MBP2019-WIN10\0"
       VALUE "Build OS", "Windows NT v6.2  Build 9200\0"
     END
   END
